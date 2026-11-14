@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+<title>Manish Kothawade | Automotive Quality Engineering</title>
+<meta name="description" content="Manish Kothawade: automotive quality leader, IATF 16949 Lead Auditor, ASQ CQE, CMQ/OE and CSQP. Contributor to IATF 16949 2nd Edition work groups and AIAG CQI-39. Published in the Quality Management Journal.">
+<meta property="og:title" content="Manish Kothawade | Automotive Quality Engineering">
+<meta property="og:description" content="Automotive quality leader, standards contributor, and published author. Engineering Leaders Under 40, Class of 2026.">
+<meta property="og:type" content="profile">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#FBFAF7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23173B63'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' font-weight='700' text-anchor='middle' fill='%23ffffff'%3EMK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --paper:#FBFAF7;--paper-2:#F3F1EB;--surface:#FFFFFF;
+    --ink:#16233A;--body:#3D4A61;--soft:#66728A;--dim:#8D97AB;
+    --navy:#173B63;--navy-soft:#E6EDF6;
+    --gold:#A8731A;--gold-soft:#FAF0DC;
+    --green:#2A6F4E;--green-soft:#E3F1EA;
+    --line:rgba(22,35,58,0.10);--line-2:rgba(22,35,58,0.18);
+    --r:14px;--r-lg:20px;
+    --serif:'Fraunces',Georgia,'Times New Roman',serif;
+    --sans:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+    --mono:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace;
+  }
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:76px}
+  body{font-family:var(--sans);background:var(--paper);color:var(--body);line-height:1.65;font-size:16px;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+  a{color:var(--navy);text-decoration-thickness:1px;text-underline-offset:3px}
+  a:hover{color:var(--gold)}
+  :focus-visible{outline:3px solid #E0A63A;outline-offset:3px;border-radius:6px}
+  .wrap{width:100%;max-width:1080px;margin:0 auto;padding:0 24px}
+
+  .top{position:-webkit-sticky;position:sticky;top:0;z-index:20;background:rgba(251,250,247,0.94);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+  .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:64px}
+  .brand{display:inline-flex;align-items:center;gap:10px;min-height:44px;min-width:44px;text-decoration:none;color:var(--ink);font-family:var(--serif);font-weight:600;font-size:1.08rem}
+  .brand span.mk{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:10px;background:var(--navy);color:#fff;font-size:0.9rem;letter-spacing:0.02em}
+  .top nav{display:flex;gap:2px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .top nav::-webkit-scrollbar{display:none}
+  .top nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border-radius:10px;font-size:0.9rem;font-weight:500;color:var(--soft);text-decoration:none;white-space:nowrap}
+  .top nav a:hover{background:var(--paper-2);color:var(--ink)}
+
+  .hero{padding:72px 0 56px;background:radial-gradient(900px 420px at 85% -10%,rgba(168,115,26,0.10),rgba(168,115,26,0) 70%),radial-gradient(700px 380px at 0% 0%,rgba(23,59,99,0.08),rgba(23,59,99,0) 70%)}
+  .eyebrow{font-family:var(--mono);font-size:0.72rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold)}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.6rem,7vw,4.6rem);line-height:1.03;color:var(--ink);letter-spacing:-0.015em;margin:14px 0 18px}
+  .lede{max-width:680px;font-size:1.14rem;color:var(--body)}
+  .lede strong{color:var(--ink);font-weight:600}
+  .creds{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px;list-style:none}
+  .creds li{font-family:var(--mono);font-size:0.74rem;letter-spacing:0.03em;padding:7px 12px;border-radius:100px;background:var(--surface);border:1px solid var(--line-2);color:var(--ink)}
+  .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border-radius:12px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:transform .2s ease}
+  .btn:hover{transform:translateY(-2px)}
+  .btn.primary{background:var(--navy);color:#fff;box-shadow:0 6px 18px rgba(23,59,99,0.22)}
+  .btn.primary:hover{color:#fff}
+  .btn.ghost{background:var(--surface);color:var(--ink);border:1px solid var(--line-2)}
+  .facts{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:48px}
+  .fact{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px 20px 18px}
+  .fact b{display:block;font-family:var(--serif);font-weight:600;font-size:2rem;line-height:1.1;color:var(--ink)}
+  .fact span{display:block;margin-top:6px;font-size:0.86rem;color:var(--soft);line-height:1.45}
+
+  section{padding:68px 0}
+  section.alt{background:var(--paper-2)}
+  .head{max-width:720px;margin-bottom:34px}
+  h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.9rem,4.4vw,2.7rem);line-height:1.12;color:var(--ink);margin-top:8px;letter-spacing:-0.01em}
+  .head p{margin-top:12px;color:var(--soft)}
+  h3{font-family:var(--serif);font-weight:600;font-size:1.32rem;line-height:1.25;color:var(--ink)}
+  .meta{font-family:var(--mono);font-size:0.72rem;letter-spacing:0.06em;text-transform:uppercase;color:var(--dim)}
+  .tag{display:inline-flex;align-items:center;align-self:flex-start;gap:7px;font-family:var(--mono);font-size:0.66rem;letter-spacing:0.1em;text-transform:uppercase;padding:5px 11px;border-radius:100px;white-space:nowrap}
+  .tag::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+  .tag.won{color:var(--gold);background:var(--gold-soft)}
+  .tag.live{color:var(--green);background:var(--green-soft)}
+  .tag.soon{color:var(--navy);background:var(--navy-soft)}
+  .links{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:14px;font-size:0.9rem;font-weight:500}
+  .links a{display:inline-flex;align-items:center;min-height:44px}
+  .links a::after{content:"\2197";margin-left:5px;font-size:0.85em}
+
+  .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:26px 26px 22px;display:flex;flex-direction:column;gap:10px;box-shadow:0 1px 2px rgba(22,35,58,0.04),0 10px 28px rgba(22,35,58,0.05)}
+  .card p{font-size:0.96rem}
+  .card .links{margin-top:auto;padding-top:6px}
+  .card.award{border-top:3px solid var(--gold)}
+  .card.reserved{border-style:dashed;border-color:var(--line-2);box-shadow:none;background:transparent}
+  .mini{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px}
+  .mini h3{font-size:1.12rem}
+  .mini p{font-size:0.92rem;margin-top:6px;color:var(--soft)}
+  .mini .links{margin-top:6px}
+
+  .pubs{display:flex;flex-direction:column;gap:14px}
+  .pub{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px 24px;display:grid;grid-template-columns:1fr auto;gap:8px 18px;align-items:start}
+  .pub h3{font-size:1.16rem}
+  .pub p{grid-column:1 / -1;font-size:0.94rem}
+  .pub .links{grid-column:1 / -1;margin-top:0}
+  .pub .tag{justify-self:end;align-self:start}
+
+  .roles{position:relative;display:flex;flex-direction:column;gap:14px}
+  .role{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px 24px}
+  .role header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px}
+  .role .org{font-weight:600;color:var(--ink);margin-top:2px}
+  .role ul{margin:12px 0 0 18px}
+  .role li{font-size:0.94rem;margin-top:6px}
+  .earlier{margin-top:16px;font-size:0.92rem;color:var(--soft)}
+
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .list{list-style:none}
+  .list li{padding:14px 0;border-bottom:1px solid var(--line);font-size:0.95rem}
+  .list li:last-child{border-bottom:0}
+  .list b{color:var(--ink);font-weight:600}
+  .list small{display:block;color:var(--soft);font-size:0.86rem;margin-top:2px}
+  .list a{display:inline-flex;align-items:center;min-height:44px}
+
+  .contact{background:var(--navy);color:#DCE6F2;padding:64px 0}
+  .contact h2{color:#fff}
+  .contact p{margin-top:12px;max-width:560px;color:#C3D2E4}
+  .contact .cta{margin-top:26px}
+  .contact .btn.primary{background:#fff;color:var(--navy);box-shadow:none}
+  .contact .btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,0.35)}
+  .contact .btn.ghost:hover{color:#fff}
+  footer{background:#102C4B;color:#9FB3CB;font-size:0.82rem;padding:22px 0 calc(22px + env(safe-area-inset-bottom))}
+  footer .wrap{display:flex;flex-wrap:wrap;gap:6px 24px;justify-content:space-between}
+
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
+  @media (max-width:900px){
+    .facts{grid-template-columns:repeat(2,1fr)}
+    .grid3{grid-template-columns:1fr}
+    .cols{grid-template-columns:1fr}
+  }
+  @media (max-width:680px){
+    .wrap{padding:0 18px}
+    .brand b{display:none}
+    .hero{padding:48px 0 40px}
+    section{padding:52px 0}
+    .grid2{grid-template-columns:1fr}
+    .card{padding:22px 20px 18px}
+    .pub{grid-template-columns:1fr}
+    .pub .tag{justify-self:start;grid-row:1}
+    .btn{width:100%}
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Manish Kothawade, back to top"><span class="mk">MK</span><b>Manish Kothawade</b></a>
+    <nav aria-label="Sections">
+      <a href="#recognition">Recognition</a>
+      <a href="#standards">Standards</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#credentials">Credentials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<div class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Automotive quality engineering</p>
+    <h1>Manish Kothawade</h1>
+    <p class="lede">I work on <strong>preventing vehicle safety defects through global quality standards</strong>: leading plant and multi-site quality systems, contributing to the standards the industry audits against, and publishing what I learn.</p>
+    <ul class="creds">
+      <li>ASQ CQE</li>
+      <li>ASQ CMQ/OE</li>
+      <li>ASQ CSQP</li>
+      <li>IATF 16949 Lead Auditor</li>
+      <li>ASQ Senior Member</li>
+    </ul>
+    <div class="cta">
+      <a class="btn primary" href="#recognition">Awards and recognition</a>
+      <a class="btn ghost" href="#standards">Standards work</a>
+    </div>
+    <div class="facts">
+      <div class="fact"><b>16+</b><span>years in automotive quality across six OEM customer programs</span></div>
+      <div class="fact"><b>2</b><span>"Under 40" awards, Class of 2026</span></div>
+      <div class="fact"><b>3</b><span>industry standards work groups (IATF 16949 2nd Edition, AIAG CQI-39)</span></div>
+      <div class="fact"><b>106,651</b><span>sites certified to IATF 16949 worldwide, the standard this work supports (IATF, May 2026)</span></div>
+    </div>
+  </div>
+</div>
+
+<section id="recognition">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Recognition</p>
+      <h2>Awards and recognition</h2>
+      <p>Each item links to the independent source that published it.</p>
+    </div>
+
+    <div class="grid2">
+      <article class="card award">
+        <span class="tag won">Class of 2026</span>
+        <h3>Engineering Leaders Under 40</h3>
+        <p class="meta">Control Engineering and Plant Engineering &middot; CFE Media &middot; September 2026</p>
+        <p>Named to the Class of 2026 by two national engineering trade publications, which recognize engineers under 40 for leadership and contribution in manufacturing and industrial operations.</p>
+        <div class="links">
+          <a href="https://www.plantengineering.com/2026-engineering-leader-under-40-manish-kothawade-39/" rel="noopener">Profile</a>
+          <a href="https://www.controleng.com/engineering-leaders-under-40-the-class-of-2026/" rel="noopener">Class of 2026</a>
+        </div>
+      </article>
+
+      <article class="card award">
+        <span class="tag won">Class of 2026</span>
+        <h3>20 Under 40</h3>
+        <p class="meta">The Times of Northwest Indiana and IN Business &middot; September 2026</p>
+        <p>Selected as one of twenty Northwest Indiana professionals under 40, with a published profile, a video feature, and an awards dinner on October 29, 2026.</p>
+        <div class="links">
+          <a href="https://nwitimes.com/news/local/article_b3308f39-552d-4e14-994a-a8736dc6355e.html" rel="noopener">Profile</a>
+          <a href="https://www.youtube.com/watch?v=ClGTkehz0Tw" rel="noopener">Video</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="grid3" style="margin-top:18px">
+      <div class="mini">
+        <h3>Congressional letter of congratulations</h3>
+        <p>From U.S. Representative Frank J. Mrvan, Indiana's 1st District, on the 20 Under 40 honor. October 29, 2026.</p>
+      </div>
+      <div class="mini">
+        <h3>Employee Spotlight</h3>
+        <p>Featured by Lear Corporation on its careers site. November 2026.</p>
+        <div class="links"><a href="https://www.lear.com/careers/employee-spotlight-manish-kothawade" rel="noopener">Read the spotlight</a></div>
+      </div>
+      <div class="mini">
+        <h3>ASQ Senior Member</h3>
+        <p>American Society for Quality. Member since 2019, Senior Member grade since July 2025.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="standards">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Standards work</p>
+      <h2>Contributing to the standards the industry audits against</h2>
+      <p>Participation in these work groups is by invitation or nomination. IATF 16949 is the automotive quality management system standard; the IATF reported 106,651 certified sites worldwide as of May 20, 2026.</p>
+      <div class="links"><a href="https://www.iatfglobaloversight.org/wp/wp-content/uploads/2026/06/2026-04_GlobalCertDistribution.pdf" rel="noopener">IATF certification statistics</a></div>
+    </div>
+
+    <div class="grid2">
+      <article class="card">
+        <p class="meta">IAOB &middot; 2025 to 2026</p>
+        <h3>IATF 16949 Rev. 2, Sections 8.5 through 8.7</h3>
+        <p>Invited to participate as a technical contributor to work group activities covering production and service provision, identification and traceability, and control of nonconforming outputs. The role included reviewing draft requirements written by other subject matter experts and contributing a Tier 1 plant perspective.</p>
+      </article>
+
+      <article class="card">
+        <p class="meta">IAOB &middot; 2025 to present</p>
+        <h3>IATF 16949 2nd Edition Customer-Specific Requirements (CSR) Work Group</h3>
+        <p>Selected as a contributor to the work group that analyzes and rationalizes automaker customer-specific requirements within IATF 16949 and develops recommendations on them.</p>
+      </article>
+
+      <article class="card">
+        <p class="meta">AIAG &middot; December 2025 to 2026</p>
+        <h3>CQI-39 Assembly System Assessment workgroup</h3>
+        <p>Workgroup member since kick-off for the Automotive Industry Action Group's first structured assessment standard for assembly processes, with input on fastening systems, vision and error-proofing systems, mechanical joining processes, and control plan elements.</p>
+      </article>
+
+      <article class="card reserved" id="cqi-39">
+        <span class="tag soon">Publication pending</span>
+        <h3>CQI-39 Assembly System Assessment, 1st Edition</h3>
+        <p class="meta">AIAG &middot; Release expected late 2026</p>
+        <p>Named contributor in the acknowledgements of the 1st Edition. The publication link and edition details will be added here on release.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Publications and peer review</p>
+      <h2>Published work</h2>
+    </div>
+
+    <div class="pubs">
+      <article class="pub">
+        <div>
+          <p class="meta">Quality Management Journal &middot; Taylor &amp; Francis &middot; 2026</p>
+          <h3>Reframing Layered Process Audits as Risk-Based Manufacturing Process Audits: A Quality Management Systems Case Study</h3>
+        </div>
+        <span class="tag live">Published</span>
+        <p>Sole-author, peer-reviewed case study of consolidating layered and manufacturing process audits into a single risk-based audit program at an automotive-component manufacturing facility certified to IATF 16949. Published online November 2026.</p>
+        <div class="links"><a href="https://doi.org/10.1080/10686967.2026.2751459" rel="noopener">doi.org/10.1080/10686967.2026.2751459</a></div>
+      </article>
+
+      <article class="pub">
+        <div>
+          <p class="meta">ASQ Quality Progress &middot; December 2026 issue</p>
+          <h3>The Future of Automotive Quality: High-Maturity QMS and AI in the Next Decade</h3>
+        </div>
+        <span class="tag soon">Scheduled</span>
+        <p>Feature article in the magazine of the American Society for Quality.</p>
+      </article>
+
+      <article class="pub">
+        <div>
+          <p class="meta">ASQ Quality Progress &middot; January 2027 issue</p>
+          <h3>From Compliance to Competence: Risk-Based Organizational Training for Quality Excellence</h3>
+        </div>
+        <span class="tag soon">Scheduled</span>
+        <p>Feature article on building quality competence through risk-based training.</p>
+      </article>
+
+      <article class="pub">
+        <div>
+          <p class="meta">ASQ Quality Progress</p>
+          <h3>A Process-Centric QMS-CSR Matrix for Risk-Based Auditing in Automotive Manufacturing</h3>
+        </div>
+        <span class="tag soon">Accepted</span>
+        <p>Accepted for publication; issue to be scheduled.</p>
+      </article>
+
+      <article class="pub">
+        <div>
+          <p class="meta">Ohio University &middot; Master's thesis &middot; 2014</p>
+          <h3>A Bayesian Method for Planning Reliability Demonstration Tests for Multi-Component Systems</h3>
+        </div>
+        <span class="tag live">Published</span>
+        <p>Thesis in Industrial and Systems Engineering, advised by Dr. Tao Yuan.</p>
+        <div class="links"><a href="http://rave.ohiolink.edu/etdc/view?acc_num=ohiou1416154538" rel="noopener">OhioLINK record</a></div>
+      </article>
+    </div>
+
+    <div class="grid2" style="margin-top:18px">
+      <div class="mini">
+        <h3>Peer reviewer, Quality Management Journal</h3>
+        <p>Completed peer review for the journal in 2026, verified through Web of Science (reviewer record QIR-3782-2026) and shown on ORCID.</p>
+        <div class="links"><a href="https://orcid.org/0009-0004-7184-163X" rel="noopener">ORCID 0009-0004-7184-163X</a></div>
+      </div>
+      <div class="mini">
+        <h3>ASQ NextGen Mentoring Subcommittee</h3>
+        <p>Selected member and active participant, 2026 to present. Mentoring early-career quality professionals through ASQ.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="experience">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Experience</p>
+      <h2>Career</h2>
+      <p>Automotive quality roles on programs for Ford, Stellantis, BMW, GM, Honda and Nissan.</p>
+    </div>
+
+    <div class="roles">
+      <article class="role">
+        <header><h3>Plant Quality Manager</h3><span class="meta">Mar 2024 to present</span></header>
+        <p class="org">Lear Corporation &middot; Hammond, Indiana</p>
+        <ul>
+          <li>Lead the plant's quality team at a high-volume, just-in-time automotive seating facility.</li>
+          <li>The facility successfully completed its third-party IATF 16949 surveillance and recertification audits.</li>
+          <li>Supported the development of IATF 16949 and ISO 14001 reference guides for use at the facility.</li>
+        </ul>
+      </article>
+
+      <article class="role">
+        <header><h3>Global Operations Quality Manager</h3><span class="meta">Aug 2023 to Dec 2023</span></header>
+        <p class="org">Motus Integrated Technologies &middot; Holland, Michigan</p>
+        <ul>
+          <li>Cleared a six-month backlog of chronic customer issues, cutting the top defect category by 80 percent in parts per million.</li>
+          <li>Closed six longstanding customer audit nonconformities within three weeks using reverse FMEA, a lessons-learned database and layered process audits.</li>
+          <li>Digitized a layered process audit system running more than 500 audits a month, and led the global 8D program across plants.</li>
+        </ul>
+      </article>
+
+      <article class="role">
+        <header><h3>Quality Systems Manager</h3><span class="meta">Mar 2020 to Aug 2023</span></header>
+        <p class="org">Wolverine Metal Stamping, Inc. &middot; Saint Joseph, Michigan</p>
+        <ul>
+          <li>Rebuilt a multi-site quality management system across four facilities to sustained third-party audit readiness.</li>
+          <li>Corporate quality liaison for all second-party and third-party IATF 16949 and ISO 9001 audits.</li>
+          <li>Six Sigma projects worth more than $100,000 a year, plus a document control system saving about $20,000 a year.</li>
+          <li>Raised supplier responsiveness from near zero to 100 percent and quality team retention by 40 percent.</li>
+        </ul>
+      </article>
+
+      <article class="role">
+        <header><h3>Corporate Systems Auditor, then QMS Lead Auditor</h3><span class="meta">Jul 2017 to Mar 2020</span></header>
+        <p class="org">Kasai North America &middot; Murfreesboro, Tennessee</p>
+        <ul>
+          <li>Covered the transition to IATF 16949 at corporate headquarters and five manufacturing facilities, completed within eight months.</li>
+          <li>Co-developed in-house corrective action software used across the facilities.</li>
+          <li>Trained quality system managers at five facilities and ran annual competency assessments.</li>
+        </ul>
+      </article>
+
+      <article class="role">
+        <header><h3>Senior Quality Systems Engineer</h3><span class="meta">Mar 2016 to Jun 2017</span></header>
+        <p class="org">Midwest Acoust-A-Fiber &middot; Delaware, Ohio</p>
+        <ul>
+          <li>Guided the company through two TS 16949 and two CCC certification audits, protecting more than $20 million in future business.</li>
+          <li>Brought customer warranty claims to zero and cut weekly warranty review from twelve hours to two.</li>
+        </ul>
+      </article>
+
+      <article class="role">
+        <header><h3>Quality Assurance Engineer</h3><span class="meta">May 2014 to Mar 2016</span></header>
+        <p class="org">American Showa &middot; Sunbury, Ohio</p>
+        <ul>
+          <li>Warranty PFMEA through vehicle and simulation testing, capability studies and measurement system analysis.</li>
+        </ul>
+      </article>
+    </div>
+    <p class="earlier">Earlier, in Pune, India (2009 to 2012): engineering and quality roles at Faurecia, Baker Gauges India and Indo Sch&ouml;ttle Auto Parts.</p>
+  </div>
+</section>
+
+<section id="credentials">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Credentials and education</p>
+      <h2>Certifications</h2>
+    </div>
+    <div class="cols">
+      <ul class="list">
+        <li><b>Certified Quality Engineer (CQE)</b><small>American Society for Quality &middot; 2017</small><a href="https://credentials.asq.org/f30c590d-8cc8-4a57-86a7-22ba3c31e56b#acc.LOy2r0xw" rel="noopener">Verify credential</a></li>
+        <li><b>Certified Manager of Quality/Organizational Excellence (CMQ/OE)</b><small>American Society for Quality &middot; 2020</small><a href="https://credentials.asq.org/cafed66c-4665-4617-b641-9ce98ec1e1f7#acc.BLoGIsht" rel="noopener">Verify credential</a></li>
+        <li><b>Certified Supplier Quality Professional (CSQP)</b><small>American Society for Quality &middot; 2024</small><a href="https://credentials.asq.org/61ae1f69-857b-4c75-887f-b5912efc1866#acc.QRIuCtpk" rel="noopener">Verify credential</a></li>
+      </ul>
+      <ul class="list">
+        <li><b>IATF 16949 Lead Auditor</b><small>Omnex &middot; 2017</small></li>
+        <li><b>ISO 14001 Internal Auditor</b><small>Bureau Veritas &middot; 2016</small></li>
+        <li><b>MS, Industrial and Systems Engineering</b><small>Ohio University, Athens, Ohio &middot; 2014</small></li>
+        <li><b>BE, Mechanical Engineering</b><small>University of Pune, India &middot; 2009</small></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div class="contact" id="contact">
+  <div class="wrap">
+    <p class="eyebrow" style="color:#E7C27A">Contact</p>
+    <h2>Get in touch</h2>
+    <p>Open to connecting with quality professionals, researchers and industry peers. Based in Northwest Indiana.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://www.linkedin.com/in/kothawademanish/" rel="noopener">LinkedIn</a>
+      <a class="btn ghost" href="mailto:manishgo3366@gmail.com">Email</a>
+      <a class="btn ghost" href="https://orcid.org/0009-0004-7184-163X" rel="noopener">ORCID</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Manish Kothawade</span>
+    <span>Personal site. Views are my own and do not represent any employer or standards body.</span>
+  </div>
+</footer>
+
+</body>
+</html>
